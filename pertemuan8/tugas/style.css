@@ -1,0 +1,19 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0px;
+}
+.container {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-color: rgb(209, 209, 255);
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.navbar ul li a {
+  display: block;
+  color: #fff;
+}
