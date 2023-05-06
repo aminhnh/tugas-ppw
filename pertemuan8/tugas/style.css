@@ -1,13 +1,17 @@
 html,
 body {
-  background-color: #e5e5e5;
+  color: #fff;
+  /* background-color: #e5e5e5; */
   height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1621451749004-a06ae0616c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-fluid {
   min-height: 1vh;
 }
 .navbar {
-  background-color: rgb(209, 209, 255);
+  background-color: #1769acbd;
 }
 .navbar-brand {
   padding-left: 70px;
@@ -18,8 +22,15 @@ body {
 }
 .navbar ul li a {
   display: block;
-  color: #fff;
 }
 .page-1 {
   height: 100%;
+}
+header {
+  padding-top: 40vh;
+  max-width: 50em;
+  margin: auto;
+}
+.text-responsive {
+  font-size: calc(60% + 1vw);
 }
