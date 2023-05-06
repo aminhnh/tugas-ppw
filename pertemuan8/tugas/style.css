@@ -1,13 +1,16 @@
+html,
 body {
   background-color: #e5e5e5;
-  margin: 0px;
+  height: 100%;
 }
-.container {
-  margin: 0%;
-  padding: 0%;
+.container-fluid {
+  min-height: 1vh;
 }
 .navbar {
   background-color: rgb(209, 209, 255);
+}
+.navbar-brand {
+  padding-left: 70px;
 }
 .navbar ul li {
   display: inline-block;
@@ -16,4 +19,7 @@ body {
 .navbar ul li a {
   display: block;
   color: #fff;
+}
+.page-1 {
+  height: 100%;
 }
