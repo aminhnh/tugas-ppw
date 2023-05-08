@@ -1,17 +1,28 @@
 html,
 body {
-  color: #fff;
-  /* background-color: #e5e5e5; */
+  color: #ffffff;
+  background-color: #d5aeae;
   height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1621451749004-a06ae0616c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  background-image: linear-gradient(
+      rgba(225, 219, 235, 0.437),
+      rgba(255, 255, 255, 0.063)
+    ),
+    url(https://images.unsplash.com/photo-1621451749004-a06ae0616c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  /* margin: 0px !important;
+  padding: 0px !important; */
 }
 .container-fluid {
   min-height: 1vh;
 }
 .navbar {
-  background-color: #1769acbd;
+  /* background-color: #ff7f48; */
+  backdrop-filter: blur(5px);
+  background: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  /* text-shadow: rgb(0, 0, 0) 1px 0 10px; */
+  /* border: 2px solid rgb(255, 255, 255, 0.5); */
 }
 .navbar-brand {
   padding-left: 70px;
@@ -26,6 +37,10 @@ body {
 .page-1 {
   height: 100%;
 }
+.page-2 {
+  height: 75%;
+  background-color: #114b68;
+}
 header {
   padding-top: 40vh;
   max-width: 50em;
@@ -33,4 +48,40 @@ header {
 }
 .text-responsive {
   font-size: calc(60% + 1vw);
+}
+.display-2 {
+  font-weight: 500;
+}
+.btn {
+  color: #fff;
+  border-color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 2em;
+  height: 3.2rem;
+  width: 12rem;
+}
+/* NEEDS TO BE WORKED ON */
+.bt2:hover {
+  background-color: #ffffff !important;
+}
+.btn-2 {
+  border: 0.1em solid #ffffff;
+  border-radius: 2em;
+  height: 2.7em;
+  background: transparent;
+  color: #ffffff;
+  width: 10em;
+}
+.px-6 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+.p-7 {
+  padding: 3rem 8rem 0px 8rem !important;
+}
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+  min-height: 10em;
 }
