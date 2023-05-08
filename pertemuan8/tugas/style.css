@@ -45,6 +45,7 @@ header {
   padding-top: 40vh;
   max-width: 50em;
   margin: auto;
+  text-shadow: #114b68 1px 0 10px;
 }
 .text-responsive {
   font-size: calc(60% + 1vw);
@@ -52,6 +53,7 @@ header {
 .display-2 {
   font-weight: 500;
 }
+
 .btn {
   color: #fff;
   border-color: #fff;
@@ -61,9 +63,10 @@ header {
   height: 3.2rem;
   width: 12rem;
 }
-/* NEEDS TO BE WORKED ON */
-.bt2:hover {
+.btn-2:focus,
+.btn-2:hover {
   background-color: #ffffff !important;
+  color: #114b68;
 }
 .btn-2 {
   border: 0.1em solid #ffffff;
@@ -72,6 +75,7 @@ header {
   background: transparent;
   color: #ffffff;
   width: 10em;
+  transition-duration: 0.25s;
 }
 .px-6 {
   padding-right: 5rem !important;
