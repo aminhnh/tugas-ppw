@@ -39,13 +39,17 @@ body {
 .page-1 {
   height: 100vh;
 }
-.page-3 {
-  height: 100vh;
-  background-color: brown;
-}
 .page-2 {
   height: 75%;
   background-color: #114b68;
+}
+.page-3 {
+  height: 13vh;
+  background-color: rgb(57, 19, 19);
+}
+.page-4 {
+  height: 100vh;
+  background-color: rgb(53, 44, 108);
 }
 header {
   padding-top: 40vh;
@@ -101,4 +105,19 @@ header {
 form {
   padding: 0px 0px;
   margin: 0px;
+}
+.btn-edit {
+  padding: 0px 1em;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 3px;
+}
+.btn-edit:hover {
+  background-color: #0b3348;
+}
+textarea {
+  background-color: #0b3348;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
