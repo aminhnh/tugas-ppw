@@ -115,9 +115,16 @@ form {
 .btn-edit:hover {
   background-color: #0b3348;
 }
-textarea {
+#edited-text {
   background-color: #0b3348;
   color: #ffffff;
   border-radius: 3px;
   margin-bottom: 10px;
+}
+.form {
+  background-color: #114b68;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 3px 10px;
+  margin: 0.5em 0px;
 }
