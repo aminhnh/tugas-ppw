@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  outline: 1px solid red;
+}
 html,
 body {
   font-family: "Poppins";
@@ -128,3 +131,7 @@ form {
   padding: 3px 10px;
   margin: 0.5em 0px;
 }
+/* .justify-content {
+  align-items: center;
+  justify-content: center;
+} */
