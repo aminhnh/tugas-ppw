@@ -98,3 +98,7 @@ header {
 .page-3 .container-fluid {
   height: auto;
 }
+form {
+  padding: 0px 0px;
+  margin: 0px;
+}
